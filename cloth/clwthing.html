@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLWNTHING APPAREL</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Header Section */
+    header {
+      background: linear-gradient(to right, #b9dca9, #459843);
+      color: white;
+      padding: 20px 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+	  
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    nav ul {
+      gap: 20px;
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav ul li a:hover {
+      color: #f0f0f0;
+    }
+
+    .cta-button {
+      background-color: white;
+      color: #e52e71;
+      padding: 10px 20px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .cta-button:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+	  
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">CLWNTHING APPAREL</div>
+	   <img src="logo.gif" height="50" weight="50">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+		  <li>|</li>
+          <li><a href="#about">Shop</a></li>
+		  <li>|</li>
+          <li><a href="#services">About</a></li>
+          <li>|</li>
+		  <li><a href="#contact">Look book</a></li>
+		  <li>|</li>
+		  <li><a href="#contact">blog</a></li>
+		  <li>|</li>
+		  <li><a href="#contact">Services</a></li>
+        </ul>
+      </nav>
+	  <a href="#cta" class="cta-button">Log in</a>
+      <a href="#cta" class="cta-button">Sign Up</a>
+    </div>
+  </header>
+</body>
+</html>
